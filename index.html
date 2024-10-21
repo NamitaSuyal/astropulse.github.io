@@ -6,6 +6,9 @@
   <title>Astropulse - Namita Suyal</title>
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
 </head>
 <body>
   <header>
@@ -15,37 +18,43 @@
         <a href="#home">Home</a>
         <a href="#about">About Us</a>
         <a href="#services">Services</a>
+        <a href="#testimonials">Testimonials</a>
         <a href="#videos">YouTube</a>
-        <a href="#contact">Contact Us</a>
+        <a href="#contact">Contact</a>
       </nav>
     </div>
   </header>
 
   <section id="home" class="hero">
-    <h2>Align Your Life with the Cosmos</h2>
-    <p>Discover astrology, Kundli making, Vastu, and more with Namita Suyal.</p>
-    <button onclick="scrollToSection('contact')">Book a Consultation</button>
+    <div class="hero-content">
+      <h2>Align Your Life with the Cosmos</h2>
+      <p>Discover astrology, Kundli making, Vastu, and more with Namita Suyal.</p>
+      <button onclick="scrollToSection('contact')">Book a Consultation</button>
+    </div>
   </section>
 
   <section id="about" class="about">
     <h2>About Namita Suyal</h2>
-    <p>Namita Suyal is an expert in astrology, offering services in Kundli making, Vastu, and personalized counseling.</p>
-    <p>With years of experience, she helps align people’s lives with the rhythms of the universe.</p>
+    <p>Namita Suyal is an expert astrologer with extensive experience in Kundli, Vastu, and personal counseling.</p>
+    <img src="images/astrologer.jpg" alt="Namita Suyal">
   </section>
 
   <section id="services" class="services">
     <h2>Our Services</h2>
-    <div class="service-card">
-      <h3>Kundli Making</h3>
-      <p>Create detailed birth charts to understand your life’s journey.</p>
-    </div>
-    <div class="service-card">
-      <h3>Vastu Consultation</h3>
-      <p>Optimize your home’s energy for peace and prosperity.</p>
-    </div>
-    <div class="service-card">
-      <h3>Astrological Counseling</h3>
-      <p>Receive personal guidance based on astrological insights.</p>
+    <div class="service-card">Kundli Making</div>
+    <div class="service-card">Vastu Consultation</div>
+    <div class="service-card">Astrological Counseling</div>
+  </section>
+
+  <section id="testimonials" class="testimonials">
+    <h2>Testimonials</h2>
+    <div class="slider">
+      <div class="slide">
+        <p>"Namita’s readings were so accurate—it felt like she knew me better than myself!"</p>
+      </div>
+      <div class="slide">
+        <p>"Her Vastu recommendations changed the energy of my home. I highly recommend her services!"</p>
+      </div>
     </div>
   </section>
 

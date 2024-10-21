@@ -1,7 +1,15 @@
-// JavaScript to handle smooth scrolling
+// Smooth scrolling
 function scrollToSection(sectionId) {
   const section = document.getElementById(sectionId);
-  if (section) {
-    section.scrollIntoView({ behavior: 'smooth' });
-  }
+  section.scrollIntoView({ behavior: 'smooth' });
 }
+
+// Initialize the image slider
+document.addEventListener('DOMContentLoaded', function () {
+  $('.slider').slick({
+    autoplay: true,
+    dots: true,
+    arrows: false,
+    autoplaySpeed: 3000,
+  });
+});
